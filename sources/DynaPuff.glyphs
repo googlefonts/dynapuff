@@ -1,9 +1,6 @@
 {
 .appVersion = "3108";
 .formatVersion = 3;
-DisplayStrings = (
-"₳"
-);
 axes = (
 {
 name = Weight;
@@ -365,7 +362,7 @@ sub exclam by exclam.ss01;
 labels = (
 {
 language = dflt;
-value = "";
+value = ss01;
 }
 );
 tag = ss01;
@@ -492,7 +489,7 @@ sub exclam by exclam.ss02;
 labels = (
 {
 language = dflt;
-value = "";
+value = ss02;
 }
 );
 tag = ss02;
@@ -130959,7 +130956,7 @@ key = designers;
 values = (
 {
 language = dflt;
-value = "Toshi Omagari";
+value = "Toshi Omagari, Jennifer Daniel";
 }
 );
 },
@@ -130968,7 +130965,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2021 Google Inc. All Rights Reserved. (https://github.com/googlefonts/dynapuff)";
+value = "Copyright 2021 The DynaPuff Project Authors (https://github.com/googlefonts/dynapuff)";
 }
 );
 },
@@ -130982,17 +130979,8 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 );
 },
 {
-key = trademarks;
-values = (
-{
-language = dflt;
-value = "DynaPuff is a trademark of Google Inc.";
-}
-);
-},
-{
 key = designerURL;
-value = "https://tosche.net/fonts";
+value = "https://tosche.net";
 },
 {
 key = licenseURL;
@@ -131000,16 +130988,20 @@ value = "https://scripts.sil.org/OFL";
 },
 {
 key = manufacturerURL;
-value = "http://www.google.com/get/dynapuff";
+value = "https://github.com/googlefonts/dynapuff";
 },
 {
 key = manufacturers;
 values = (
 {
 language = dflt;
-value = "Google Inc.";
+value = "Google Fonts";
 }
 );
+},
+{
+key = vendorID;
+value = GOOG;
 }
 );
 unitsPerEm = 1000;
@@ -131053,6 +131045,6 @@ m004 = (
 );
 };
 };
-versionMajor = 1;
+versionMajor = 2;
 versionMinor = 0;
 }
